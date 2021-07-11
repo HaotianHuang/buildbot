@@ -5,8 +5,6 @@ import numpy as np
 import cv2
 import os
 
-
-
 def btn_clicked():
     print("Button Clicked")
 
@@ -18,7 +16,7 @@ def btn_clicked():
     src = cv2.imread(image_name, cv2.IMREAD_UNCHANGED)
 
     # Percent by which the image is resized
-    scale_percent = int(entry1.get())
+    scale_percent = int(entry1.get() or 100)
 
     # Calculate the percent of original dimensions
     width = int(src.shape[1] * scale_percent / 100)
@@ -36,14 +34,14 @@ def btn_clicked():
     image = cv2.imread('resized.png')
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    threshold_level = int(entry3.get())
+    threshold_level = int(entry3.get() or 150)
 
     coords = np.column_stack(np.where(gray < threshold_level))
 
     size = int(len(coords))
 
-    y_increase = int(entry4.get())
-    x_increase = int(entry5.get())
+    y_increase = int(entry4.get() or 220)
+    x_increase = int(entry5.get() or 150)
 
     # Adjust these to center the printing of the image
     for i in range(0, size):
@@ -61,7 +59,7 @@ def btn_clicked():
     x_max = screen_width - 100
 
     # this is resolution
-    resolution = int(entry2.get())
+    resolution = int(entry2.get() or 5)
 
     def placeDotCool(array):
         for i in range(0, size, resolution):
@@ -123,20 +121,6 @@ entry0_img = PhotoImage(file = f"img_textBox0.png")
 entry0_bg = canvas.create_image(
     717.5, 189.5,
     image = entry0_img)
-
-
-
-
-# entry0 = Entry(
-#     bd = 0,
-#     bg = "#f0f0f0",
-#     fg = "black",
-#     highlightthickness = 0)
-#
-# entry0.place(
-#     x = 563.0, y = 168,
-#     width = 309.0,
-#     height = 41)
 
 b1 = Button(
     image = entry0_img,
