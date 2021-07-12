@@ -28,7 +28,7 @@ Build Bot was created to speed up the map-development process in Constellation. 
 
 Steps
 
-1. Download all of the buildbot folder [here](https://drive.google.com/drive/folders/1qCr58WfKL_fVMwngkoQRs63OwfbYAcXG?usp=sharing) 
+1. Download all of the buildbot folder <a href="https://drive.google.com/drive/folders/1qCr58WfKL_fVMwngkoQRs63OwfbYAcXG?usp=sharing" target="_blank">here</a>.
 2. Open the `buildbot` folder and then open `buildbot.exe` file
 
 
@@ -53,7 +53,7 @@ Steps
 
 ## 🐞 Bug Reporting
 
-Build Bot was built as a hobby project, so bugs will likely not be fixed very quickly, however, if you want to report a bug, feel free to submit it [here](https://forms.gle/5NHyiV7eHqLB2UdZA). 
+Build Bot was built as a hobby project, so bugs will likely not be fixed very quickly, however, if you want to report a bug, feel free to submit it <a href="https://forms.gle/5NHyiV7eHqLB2UdZA" target="_blank">here</a>.
 
 
 
