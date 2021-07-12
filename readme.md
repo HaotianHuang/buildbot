@@ -1,8 +1,8 @@
-# <p style="text-align: center;">Build Bot 🏗️ for Constellation 🌠</p>
+# <p align="center">Build Bot 🏗️ for Constellation 🌠</p>
 
 ---
 
-<p style="text-align: center;">Semi-automatic map building in Constellation</p>
+<p align="center">Semi-automatic map building in Constellation</p>
 
 
 <br>
