@@ -9,7 +9,7 @@
 
 <br>
 
-## 💡Introduction
+## 💡 Introduction
 ---
 
 Build Bot was created to speed up the map-development process in Constellation. It uses the well-known pyautogui Python module to 'print' an image of your choice onto the map builder. 
@@ -26,9 +26,9 @@ Build Bot was created to speed up the map-development process in Constellation. 
 
 ## 🛠 Installing Build Bot
 
-Steps
+**Steps**
 
-1. Download all of the buildbot folder <a href="https://drive.google.com/drive/folders/1qCr58WfKL_fVMwngkoQRs63OwfbYAcXG?usp=sharing" target="_blank">here</a>.
+1. Download the entire buildbot folder here for <a href="https://drive.google.com/drive/folders/1qCr58WfKL_fVMwngkoQRs63OwfbYAcXG?usp=sharing" target="_blank">mac</a> and here for <a href="https://drive.google.com/drive/folders/1BB9-3nx5IQNBsogV2b7vW2TPz4psvtGw?usp=sharing" target="_blank">pc</a>.
 2. Open the `buildbot` folder and then open `buildbot.exe` file
 
 
@@ -36,7 +36,7 @@ Steps
 
 ![view](https://i.imgur.com/qaFL5Ld.png)
 
-Steps
+**Steps**
 
 1. Select an image by clicking image name
 2. Fill in the other details if you would like (can leave blank)
@@ -48,7 +48,17 @@ Steps
 
 ![generate](https://i.imgur.com/XMFrSJI.png)
 
-5. Cross your fingers and hit generate! 
+5. Cross your fingers and hit generate!
+
+
+## 🔫 Tips & Troubleshooting
+
+- Select an image that has clean smooth lines for a nice looking output. 
+
+- Picture not printing clearly? Try running your image through a stencil maker first to produce an image with clean smooth lines. I use <a href="https://online.rapidresizer.com/photograph-to-pattern.php" target="_blank">this</a> one. 
+
+- If the image is not printing in the position you want, try adjusting the y and x offset
+
 
 
 ## 🐞 Bug Reporting
