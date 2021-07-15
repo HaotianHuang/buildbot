@@ -50,9 +50,9 @@ Build Bot was created to speed up the map-development process in Constellation. 
 
 5. Cross your fingers and hit generate!
 
-**Important**❗
+## ❗ Failsafe (important)
 
-If you want to stop printing as the application is running, move your cursor to a corner of your screen to activate the fail safe.   
+- If you want to stop printing as the application is running, move your cursor to a corner of your screen to activate the fail safe.   
 
 
 ## 🔫 Tips & Troubleshooting
