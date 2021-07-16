@@ -20,7 +20,7 @@ Build Bot was created to speed up the map-development process in Constellation. 
 
 ## ☄️ Advantages of Build Bot
 
-> "It's really sick, yeah you can use it to design your initial outlines" <br> <p style="text-align: right;">- Ethan</p>
+> "It's really sick, yeah you can use it to design your initial outlines"
 
 --- 
 
